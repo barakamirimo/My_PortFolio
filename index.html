@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Dieume MIRIMO - Programmeur Réseau et Développeur Web" />
+    <meta name="author" content="Dieume MIRIMO" />
+    <meta name="robots" content="index, follow" />
+    <title>Dieume_MIRIMO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" type="image/png" sizes="32x32" />
+    <link rel="shortcut icon" href="logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="logo.png" />
+    
+    <!-- Préchargement des ressources critiques -->
+    <link rel="preload" href="logo.png" as="image" />
+    <link rel="preload" href="Dieume.jpg" as="image" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" />
+            <span>PortFolio</span>
+        </div>
+        <nav>
+            <button id="hamburger" aria-label="Ouvrir le menu" style="display:none">
+                <span style="font-size:2rem;line-height:1">&#9776;</span>
+            </button>
+            <ul id="nav-list">
+                <!-- Les onglets seront générés dynamiquement par script.js -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-center">
+            <div class="image-content">
+                <img src="Dieume.jpg" alt="Photo de Dieume" id="profile-photo" class="clickable-photo" />
+            </div>
+            <div class="text-content">
+                <h1>Bonjour, je suis <span>Dieume_MIRIMO</span></h1>
+                <p>Programmeur Réseau et Développeur Web passionné par la création d'expériences numériques modernes et
+                    fonctionnelles.</p>
+                <a href="#about" class="btn">En Savoir Plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Je suis un professionnel passionné spécialisé dans le domaine des technologies de l'information, avec une
+            expertise approfondie en programmation réseau, maintenance réseau, cybersécurité et développement web. Fort
+            d’une expérience significative dans ces domaines, je m’engage à fournir des solutions innovantes, sécurisées
+            et performantes pour répondre aux besoins des entreprises et des organisations.<br>
+            Je suis un professionnel passionné spécialisé dans le domaine des technologies de l'information, avec une
+            expertise approfondie en programmation réseau, maintenance réseau, cybersécurité et développement web. Fort
+            d’une expérience significative dans ces domaines, je m’engage à fournir des solutions innovantes, sécurisées
+            et performantes pour répondre aux besoins des entreprises et des organisations.<br>
+            Je prends en charge la surveillance, la gestion et la maintenance des réseaux informatiques. Mon objectif
+            est d’assurer une disponibilité maximale des systèmes, de prévenir les pannes et d’intervenir rapidement en
+            cas de dysfonctionnements. Cela comprend la mise à jour des équipements, la résolution des problèmes de
+            connectivité, la sauvegarde des configurations et la gestion des incidents pour maintenir un environnement
+            réseau stable et sécurisé.<br>
+            La sécurité des systèmes d’information étant une priorité, je réalise des audits de sécurité, identifie les
+            vulnérabilités et mets en place des mesures de protection adaptées. Je déploie des pare-feu, des systèmes de
+            détection d’intrusions, et forme les utilisateurs à adopter des bonnes pratiques en matière de sécurité. Je
+            surveille en permanence les réseaux pour détecter et répondre rapidement aux tentatives d’attaque ou aux
+            incidents de sécurité, afin de protéger les données sensibles et préserver la confiance de mes clients.<br>
+            En complément de mes compétences en réseau et sécurité, je développe également des sites web et des
+            applications en utilisant les dernières technologies web. Que ce soit pour la création de sites vitrine, de
+            plateformes e-commerce ou d’applications sur mesure, je veille à offrir des interfaces intuitives,
+            performantes et sécurisées, optimisées pour une expérience utilisateur optimale.<br>
+            Je crois fermement que la clé du succès réside dans une approche holistique, alliant performance, sécurité
+            et innovation. Je m’efforce de rester constamment à la pointe des évolutions technologiques pour proposer à
+            mes clients des solutions adaptées, évolutives et résilientes face aux défis actuels du numérique.<br>
+            Que vous ayez besoin d’installer ou de maintenir votre infrastructure réseau, de renforcer la sécurité de
+            vos systèmes ou de développer votre présence en ligne, je suis votre partenaire de confiance. Mon objectif
+            est de vous accompagner dans la transformation digitale en vous offrant des services personnalisés,
+            efficaces et durables.<br>
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Programmation Réseau</li>
+            <li>Maintenance Réseau</li>
+            <li>Cyber sécurité</li>
+            <li>HTML / CSS / JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services" style="display:none">
+        <h2>Services</h2>
+        <ul>
+            <li><span class="service-icon">&#9881;</span> Conception, développement et mise en œuvre de solutions
+                logicielles pour l’infrastructure réseau.</li>
+            <li><span class="service-icon">&#9881;</span> Développement d’applications et d’outils pour optimiser la
+                gestion et la performance des réseaux.</li>
+            <li><span class="service-icon">&#9881;</span> Intégration de systèmes et automatisation des processus liés
+                aux réseaux informatiques.</li>
+            <li><span class="service-icon">&#9881;</span> Évaluation et audit de la sécurité des systèmes d’information.
+            </li>
+            <li><span class="service-icon">&#9881;</span> Mise en place de mesures de protection pour prévenir, détecter
+                et répondre aux menaces cybernétiques.</li>
+            <li><span class="service-icon">&#9881;</span> Formation et sensibilisation des utilisateurs à la sécurité
+                informatique.</li>
+            <li><span class="service-icon">&#9881;</span> Surveillance continue et gestion des incidents de sécurité.
+            </li>
+            <li><span class="service-icon">&#9881;</span> Création de sites web modernes</li>
+            <li><span class="service-icon">&#9881;</span> Développement d'applications web sur mesure</li>
+            <li><span class="service-icon">&#9881;</span> Conseil et accompagnement digital</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact" style="display:none">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter par mail à <a id="link-email"
+                href="mailto:barakamirimo@gmail.com">barakamirimo@gmail.com</a>
+            ou
+            via
+            mes réseaux sociaux.</p>
+        <div class="social-links">
+            <a class="social-link" id="link-whatsapp" href="https://wa.me/243847988507" target="_blank" rel="noopener">
+                <span class="icon">
+                    <img src="whatsapp.png" alt="Whatsapp" class="icon" />
+                </span>
+                Whatsapp
+            </a>
+            <a class="social-link" id="link-instagram" href="https://instagram.com/barakamirimonzulo" target="_blank" rel="noopener">
+                <span class="icon">
+                    <img src="instagram.png" alt="Instagram" class="icon" />
+                </span>
+                Instagram
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 - Dieume_MIRIMO. All Rights Reserved.</p>
+    </footer>
+
+    <!-- MODAL POUR LA PHOTO -->
+    <div id="photo-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="Dieume.jpg" alt="Photo de Dieume en grand" id="modal-photo" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
